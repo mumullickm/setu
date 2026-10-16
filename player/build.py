@@ -68,7 +68,7 @@ def main():
     body = open(os.path.join(ROOT, 'player', 'body.html')).read()
     data = json.dumps(lessons, ensure_ascii=False, separators=(',', ':'))
     html = style + body.replace('/*DATA*/', data)
-    for bad in ('—', '–'):
+    for bad in ('\u2014', '\u2013'):
         assert bad not in html, 'dash found'
     open(os.path.join(ROOT, 'player', 'index.html'), 'w').write(html)
     # audio job list for make-audio
