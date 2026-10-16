@@ -1,0 +1,53 @@
+@import "tailwindcss";
+@import "./player.css";
+
+/* Apple-clean tokens shared with the player (canvas v15+). Amber marks sounds the reader's language lacks. */
+
+:root{
+  --bg:#F5F5F7; --card:#FFFFFF; --fill:#EDEDF0; --ink:#1D1D1F; --ink-2:#6E6E73; --ink-3:#A1A1A6; --sep:rgba(60,60,67,.12);
+  --tint:#0B7A55; --tint-bg:#E3F2EC; --on-tint:#FFFFFF;
+  --sound:#A3550A; --sound-bg:#FDF0E1;
+  --good:#1E8E3E; --good-bg:#E6F4EA; --bad:#C5221F; --bad-bg:#FCE8E6;
+  --sheet:rgba(255,255,255,.82); --shadow:0 1px 2px rgba(0,0,0,.04),0 8px 24px rgba(0,0,0,.06);
+  --f-bn:var(--nf-bn),'Noto Sans Bengali',-apple-system,BlinkMacSystemFont,'SF Pro Text',system-ui,sans-serif;
+  --f-ar:var(--nf-ar),'Noto Naskh Arabic','SF Arabic','Geeza Pro',serif;
+  --spring:cubic-bezier(.32,.72,0,1);
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#000000; --card:#1C1C1E; --fill:#2C2C2E; --ink:#F5F5F7; --ink-2:#98989D; --ink-3:#636366; --sep:rgba(84,84,88,.6);
+  --tint:#3DD39B; --tint-bg:#0F3326; --on-tint:#00140D; --sound:#FFB35C; --sound-bg:#3A2610;
+  --good:#4CD07D; --good-bg:#0E2E1A; --bad:#FF6B61; --bad-bg:#3A1513; --sheet:rgba(28,28,30,.82); --shadow:none; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#000000; --card:#1C1C1E; --fill:#2C2C2E; --ink:#F5F5F7; --ink-2:#98989D; --ink-3:#636366; --sep:rgba(84,84,88,.6);
+  --tint:#3DD39B; --tint-bg:#0F3326; --on-tint:#00140D; --sound:#FFB35C; --sound-bg:#3A2610;
+  --good:#4CD07D; --good-bg:#0E2E1A; --bad:#FF6B61; --bad-bg:#3A1513; --sheet:rgba(28,28,30,.82); --shadow:none; color-scheme:dark}
+
+@media (prefers-reduced-motion: reduce){*{animation-duration:.01s!important;animation-delay:0s!important;transition:none!important}.write{clip-path:none}}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-card: var(--card);
+  --color-fill: var(--fill);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-ink-3: var(--ink-3);
+  --color-sep: var(--sep);
+  --color-tint: var(--tint);
+  --color-tint-bg: var(--tint-bg);
+  --color-on-tint: var(--on-tint);
+  --color-sound: var(--sound);
+  --color-bad: var(--bad);
+  --color-bad-bg: var(--bad-bg);
+  --font-sans: var(--f-bn);
+  --font-ar: var(--f-ar);
+  --shadow-card: var(--shadow);
+}
+
+html, body { height: 100%; }
+body {
+  background: var(--bg); color: var(--ink); font-family: var(--f-bn); font-size: 17px; line-height: 1.45;
+  -webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: transparent;
+}
+.ar { font-family: var(--f-ar); direction: rtl; font-weight: 500; }
+button { cursor: pointer; }
+:focus-visible { outline: 2px solid var(--tint); outline-offset: 3px; }

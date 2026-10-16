@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<title>Setu lessons</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;500;600&amp;family=Noto+Sans+Bengali:wght@400;500;600;700&amp;display=swap">
+<style>
+body{margin:0}
+.ar{font-family:'Noto Naskh Arabic','Geeza Pro',serif;direction:rtl;font-weight:500}
+button{font-family:inherit;cursor:pointer}
+</style>
+</helmet>
+<div style="width: 390px; height: 844px; position: relative; overflow: hidden; box-sizing: border-box; background: #F5F5F7; font-family: 'Noto Sans Bengali', -apple-system, system-ui, sans-serif; color: #1D1D1F; padding: 14px 20px 100px; display: flex; flex-direction: column; gap: 16px">
+<div style="display: flex; align-items: center; gap: 14px; min-height: 48px">
+<a href="Main.dc.html" aria-label="{{t.back}}" style="width: 36px; height: 36px; flex: none; border-radius: 50%; background: #EDEDF0; display: flex; align-items: center; justify-content: center; color: #0B7A55"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg></a>
+<span style="font-size: 17px; font-weight: 600; flex: 1; text-align: center">{{t.title}}</span>
+<span style="min-width: 36px"></span>
+</div>
+<span style="font-size: 15px; color: #6E6E73">{{t.sub}}</span>
+<div style="background: #FFFFFF; border-radius: 18px; box-shadow: 0 1px 2px rgba(0,0,0,.04), 0 8px 24px rgba(0,0,0,.06); overflow: hidden; display: flex; flex-direction: column">
+<sc-for list="{{rows}}" as="r" hint-placeholder-count="3">
+<a href="App-Lesson.dc.html" style="min-height: 68px; padding: 10px 16px; display: flex; align-items: center; gap: 12px; text-decoration: none; color: #1D1D1F; box-sizing: border-box; border-bottom: {{r.line}}">
+<span style="width: 36px; height: 36px; flex: none; border-radius: 50%; background: {{r.bg}}; color: {{r.ink}}; font-weight: 700; font-size: 15px; display: flex; align-items: center; justify-content: center">{{r.n}}</span>
+<span style="flex: 1; display: flex; flex-direction: column; min-width: 0"><strong style="font-weight: 600; font-size: 16px">{{r.title}}</strong><small style="font-size: 13px; color: #6E6E73">{{r.meta}}</small></span>
+<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#A1A1A6" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>
+</a>
+</sc-for>
+</div>
+<span style="font-size: 12px; color: #A1A1A6; text-align: center">{{t.credit}}</span>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":390,"height":844}}'>
+class Component extends DCLogic {
+renderVals() {
+const bn = true;
+const L = [
+{ n: '১', done: true, title: 'যে আরবি আপনি আগেই জানেন', meta: 'পাঠ ১ · ১২টি শব্দ · শেষ' },
+{ n: '২', done: false, title: 'জ্ঞান, হুকুম আর কাজ: তিনটা শিকড়', meta: 'পাঠ ২ · ১২টি শব্দ' },
+{ n: '৩', done: false, title: 'জায়গা, জমায়েত আর শান্তি', meta: 'পাঠ ৩ · ১২টি শব্দ' }
+];
+return {
+t: { back: 'ফিরে যান', title: 'পাঠ', sub: 'শেষ করা পাঠ আবার করা যায়। প্রতিটা শব্দ রিভিউতে যোগ হয়।', credit: 'আওয়াজ: elevenlabs.io (Anas, Rafiq, Alice)' },
+rows: L.map((r, i) => ({ n: r.done ? '✓' : r.n, title: r.title, meta: r.meta, bg: r.done ? '#0B7A55' : '#EDEDF0', ink: r.done ? '#FFFFFF' : '#6E6E73', line: i < L.length - 1 ? '0.5px solid rgba(60,60,67,.12)' : '0' }))
+};
+}
+}
+</script>
+</body>
+</html>

@@ -55,7 +55,7 @@ def lesson(n):
             'note': {'bn': w['note_bn'], 'en': e['note_en']},
             'shift': {'bn': w['meaning_shift'], 'en': e['shift_en']} if w['meaning_shift'] else None,
             'ex': {'ar': w['example_ar'], 'bn': w['example_bn'], 'en': e['ex_en']} if w.get('example_ar') else None,
-            'near': near,
+            'near': near, 'pattern': w.get('pattern', ''),
         })
     m = META[d['id']]
     return {'id': f'l{n}', 'n': n, 'title': {'bn': d['title_bn'], 'en': m['title_en']},
@@ -71,6 +71,9 @@ def main():
     for bad in ('\u2014', '\u2013'):
         assert bad not in html, 'dash found'
     open(os.path.join(ROOT, 'player', 'index.html'), 'w').write(html)
+    web = os.path.join(ROOT, 'web', 'src', 'content')
+    if os.path.isdir(web):  # the Next.js app reads the same lesson data
+        json.dump(lessons, open(os.path.join(web, 'lessons.json'), 'w'), ensure_ascii=False, separators=(',', ':'))
     # audio job list for make-audio
     jobs = []
     src = {n: json.load(open(os.path.join(C, f'lesson{n}.json'))) for n in (1, 2, 3)}
