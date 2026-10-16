@@ -1,0 +1,354 @@
+{
+  "id": "lesson3",
+  "title_bn": "জায়গা, জমায়েত আর শান্তি",
+  "words": [
+    {
+      "id": "maktab",
+      "bn": "মক্তব",
+      "ar": "مَكْتَب",
+      "root": "ك ت ب",
+      "pattern": "مَفْعَل",
+      "bn_pron": [
+        [
+          "মাক-তাব",
+          false
+        ]
+      ],
+      "mean_bn": "মক্তব, ছোটদের কুরআন শেখার জায়গা",
+      "ar_mean_en": "office; desk (classically: writing school)",
+      "via_persian": false,
+      "meaning_shift": "আজকের আরবিতে মাকতাব মানে অফিস বা টেবিল। বাংলায় শিশুদের কুরআন শেখার জায়গা।",
+      "note_bn": "কিতাবের শিকড় ك ت ب, ছাঁচ مَفْعَل = জায়গা: লেখার জায়গা।",
+      "example_ar": "أَبِي فِي الْمَكْتَبِ.",
+      "example_bn": "আমার বাবা অফিসে আছেন।",
+      "audio_ar_text": "مَكْتَب",
+      "audio_bn_text": "মক্তব। আরবিতে মাকতাব মানে অফিস, লেখার জায়গা।",
+      "sources": [
+        "https://en.wiktionary.org/wiki/মকতব",
+        "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=مكتب&searchhws=yes",
+        "https://en.wiktionary.org/wiki/مكتب#Arabic"
+      ]
+    },
+    {
+      "id": "majlis",
+      "bn": "মজলিস",
+      "ar": "مَجْلِس",
+      "root": "ج ل س",
+      "pattern": "مَفْعِل",
+      "bn_pron": [
+        [
+          "মাজ-লিস",
+          false
+        ]
+      ],
+      "mean_bn": "সভা, বৈঠক, আসর",
+      "ar_mean_en": "sitting place; council; assembly",
+      "via_persian": true,
+      "meaning_shift": "আরবিতে সংসদ বা পরিষদও মজলিস। বাংলায় সাধারণত বৈঠক বা আসর।",
+      "note_bn": "جَلَسَ মানে বসা। মজলিস = বসার জায়গা। মসজিদের মতো একই ছাঁচ مَفْعِل।",
+      "example_ar": "جَلَسْنَا فِي الْمَجْلِسِ.",
+      "example_bn": "আমরা মজলিসে বসলাম।",
+      "audio_ar_text": "مَجْلِس",
+      "audio_bn_text": "মজলিস। আরবিতে মাজলিস মানে বসার জায়গা।",
+      "sources": [
+        "https://en.wiktionary.org/wiki/মজলিস",
+        "https://en.wiktionary.org/wiki/مجلس#Arabic"
+      ]
+    },
+    {
+      "id": "mahalla",
+      "bn": "মহল্লা",
+      "ar": "مَحَلَّة",
+      "root": "ح ل ل",
+      "pattern": "مَفْعَلَة",
+      "bn_pron": [
+        [
+          "মা-",
+          false
+        ],
+        [
+          "হাল",
+          true
+        ],
+        [
+          "-লা",
+          false
+        ]
+      ],
+      "mean_bn": "পাড়া, এলাকা",
+      "ar_mean_en": "quarter of a town; neighbourhood",
+      "via_persian": true,
+      "meaning_shift": "",
+      "note_bn": "حَلَّ মানে উট থেকে মাল নামিয়ে থামা। মহল্লা = যেখানে লোকে এসে থেমে বসত করে।",
+      "example_ar": "أَسْكُنُ فِي هَذِهِ الْمَحَلَّةِ.",
+      "example_bn": "আমি এই মহল্লায় থাকি।",
+      "audio_ar_text": "مَحَلَّة",
+      "audio_bn_text": "মহল্লা। আরবিতে মাহাল্লা মানে শহরের পাড়া।",
+      "sources": [
+        "https://en.wiktionary.org/wiki/মহল্লা",
+        "https://en.wiktionary.org/wiki/محلة#Arabic"
+      ]
+    },
+    {
+      "id": "mahfil",
+      "bn": "মাহফিল",
+      "ar": "مَحْفِل",
+      "root": "ح ف ل",
+      "pattern": "مَفْعِل",
+      "bn_pron": [
+        [
+          "মা",
+          false
+        ],
+        [
+          "হ",
+          true
+        ],
+        [
+          "-ফিল",
+          false
+        ]
+      ],
+      "mean_bn": "মাহফিল, ওয়াজের জলসা",
+      "ar_mean_en": "gathering; assembly; festive meeting",
+      "via_persian": false,
+      "meaning_shift": "",
+      "note_bn": "حَفَلَ মানে জড়ো হওয়া। মাহফিল = জড়ো হওয়ার জায়গা। মাঝের হ ভারী ح।",
+      "example_ar": "حَضَرْنَا مَحْفِلًا كَبِيرًا.",
+      "example_bn": "আমরা একটা বড় মাহফিলে গিয়েছিলাম।",
+      "audio_ar_text": "مَحْفِل",
+      "audio_bn_text": "মাহফিল। আরবিতে মাহফিল মানে জমায়েত।",
+      "sources": [
+        "https://en.wiktionary.org/wiki/মাহফিল",
+        "https://en.wiktionary.org/wiki/محفل#Arabic"
+      ]
+    },
+    {
+      "id": "jamaat",
+      "bn": "জামাত",
+      "ar": "جَمَاعَة",
+      "root": "ج م ع",
+      "pattern": "فَعَالَة",
+      "bn_pron": [
+        [
+          "জা-মা-",
+          false
+        ],
+        [
+          "‘আ",
+          true
+        ]
+      ],
+      "mean_bn": "জামাত (একসাথে নামাজ); দল",
+      "ar_mean_en": "group; community; congregation",
+      "via_persian": true,
+      "meaning_shift": "",
+      "note_bn": "ج م ع মানে জড়ো করা। শেষের ة ফারসি হয়ে বাংলায় ত: জামাআ থেকে জামাত।",
+      "example_ar": "صَلَّيْنَا جَمَاعَةً.",
+      "example_bn": "আমরা জামাতে নামাজ পড়লাম।",
+      "audio_ar_text": "جَمَاعَة",
+      "audio_bn_text": "জামাত। আরবিতে জামাআ মানে দল, একসাথে থাকা মানুষ।",
+      "sources": [
+        "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=جماعت&searchhws=yes",
+        "https://en.wiktionary.org/wiki/جماعة#Arabic"
+      ]
+    },
+    {
+      "id": "juma",
+      "bn": "জুমা",
+      "ar": "جُمُعَة",
+      "root": "ج م ع",
+      "pattern": "فُعُلَة",
+      "bn_pron": [
+        [
+          "জু-মু-",
+          false
+        ],
+        [
+          "‘আ",
+          true
+        ]
+      ],
+      "mean_bn": "জুমার দিন, শুক্রবার; জুমার নামাজ",
+      "ar_mean_en": "Friday; lit. the day of gathering",
+      "via_persian": true,
+      "meaning_shift": "",
+      "note_bn": "জড়ো হওয়ার দিন। আরবিতে শুক্রবারের নামই يَوْمُ الْجُمُعَةِ।",
+      "example_ar": "الْيَوْمُ يَوْمُ الْجُمُعَةِ.",
+      "example_bn": "আজ জুমার দিন।",
+      "audio_ar_text": "جُمُعَة",
+      "audio_bn_text": "জুমা। আরবিতে জুমুআ মানে শুক্রবার, জমায়েতের দিন।",
+      "sources": [
+        "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=جمعه&searchhws=yes",
+        "https://en.wiktionary.org/wiki/جمعة#Arabic"
+      ]
+    },
+    {
+      "id": "jama",
+      "bn": "জমা",
+      "ar": "جَمْع",
+      "root": "ج م ع",
+      "pattern": "فَعْل",
+      "bn_pron": [
+        [
+          "জাম",
+          false
+        ],
+        [
+          "‘",
+          true
+        ]
+      ],
+      "mean_bn": "জমা (টাকা জমা, জমা দেওয়া)",
+      "ar_mean_en": "gathering, collecting; (grammar) plural",
+      "via_persian": true,
+      "meaning_shift": "আরবিতে জড়ো করা, ব্যাকরণে বহুবচন। বাংলায় টাকা জমা, ফর্ম জমা দেওয়া।",
+      "note_bn": "আরবিতে শেষে ع আছে: জাম‘। বাংলায় ع হারিয়ে আ হয়ে গেছে।",
+      "example_ar": "كُتُبٌ جَمْعُ كِتَابٍ.",
+      "example_bn": "কুতুব হলো কিতাবের বহুবচন।",
+      "audio_ar_text": "جَمْع",
+      "audio_bn_text": "জমা। আরবিতে জাম মানে জড়ো করা।",
+      "sources": [
+        "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=جمع&searchhws=yes",
+        "https://dsal.uchicago.edu/cgi-bin/app/biswas-bengali_query.py?qs=জমা",
+        "https://en.wiktionary.org/wiki/جمع#Arabic"
+      ]
+    },
+    {
+      "id": "jame",
+      "bn": "জামে",
+      "ar": "جَامِع",
+      "root": "ج م ع",
+      "pattern": "فَاعِل",
+      "bn_pron": [
+        [
+          "জা-মি",
+          false
+        ],
+        [
+          "‘",
+          true
+        ]
+      ],
+      "mean_bn": "জামে মসজিদ (বড় মসজিদ, যেখানে জুমা হয়)",
+      "ar_mean_en": "congregational mosque; (adj.) comprehensive, gathering",
+      "via_persian": false,
+      "meaning_shift": "আরবিতে জামি একাই মানে বড় মসজিদ, আর বিশেষণে 'সবকিছু একত্র করে এমন'। বাংলায় শুধু 'জামে মসজিদ' কথায়।",
+      "note_bn": "ছাঁচ فَاعِل: যে জড়ো করে। যে মসজিদ সবাইকে জুমায় জড়ো করে।",
+      "example_ar": "صَلَّيْتُ فِي الْجَامِعِ الْكَبِيرِ.",
+      "example_bn": "আমি বড় জামে মসজিদে নামাজ পড়লাম।",
+      "audio_ar_text": "جَامِع",
+      "audio_bn_text": "জামে। আরবিতে জামি মানে বড় মসজিদ, যা সবাইকে জড়ো করে।",
+      "sources": [
+        "https://en.wiktionary.org/wiki/جامع#Arabic",
+        "https://en.wiktionary.org/wiki/মসজিদ"
+      ]
+    },
+    {
+      "id": "salam",
+      "bn": "সালাম",
+      "ar": "سَلَام",
+      "root": "س ل م",
+      "pattern": "فَعَال",
+      "bn_pron": [
+        [
+          "সা-লা-ম",
+          false
+        ]
+      ],
+      "mean_bn": "সালাম, অভিবাদন",
+      "ar_mean_en": "peace; greeting of peace",
+      "via_persian": true,
+      "meaning_shift": "",
+      "note_bn": "س ل م মানে নিরাপদ থাকা, শান্তি। সালাম দেওয়া মানে শান্তি কামনা করা।",
+      "example_ar": "السَّلَامُ عَلَيْكُمْ.",
+      "example_bn": "আপনার ওপর শান্তি বর্ষিত হোক।",
+      "audio_ar_text": "سَلَام",
+      "audio_bn_text": "সালাম। আরবিতে সালাম মানে শান্তি।",
+      "sources": [
+        "https://en.wiktionary.org/wiki/সালাম",
+        "https://en.wiktionary.org/wiki/سلام#Arabic"
+      ]
+    },
+    {
+      "id": "islam",
+      "bn": "ইসলাম",
+      "ar": "إِسْلَام",
+      "root": "س ل م",
+      "pattern": "إِفْعَال",
+      "bn_pron": [
+        [
+          "ইস-লা-ম",
+          false
+        ]
+      ],
+      "mean_bn": "ইসলাম ধর্ম",
+      "ar_mean_en": "submission (to God); Islam",
+      "via_persian": true,
+      "meaning_shift": "",
+      "note_bn": "ছাঁচ إِفْعَال, ইনসাফের মতো। আক্ষরিক মানে নিজেকে সঁপে দেওয়া।",
+      "example_ar": "دِينُنَا الْإِسْلَامُ.",
+      "example_bn": "আমাদের দ্বীন ইসলাম।",
+      "audio_ar_text": "إِسْلَام",
+      "audio_bn_text": "ইসলাম। আরবিতে ইসলাম মানে আল্লাহর কাছে নিজেকে সঁপে দেওয়া।",
+      "sources": [
+        "https://en.wiktionary.org/wiki/ইসলাম",
+        "https://en.wiktionary.org/wiki/إسلام#Arabic"
+      ]
+    },
+    {
+      "id": "muslim",
+      "bn": "মুসলমান",
+      "ar": "مُسْلِم",
+      "root": "س ل م",
+      "pattern": "مُفْعِل",
+      "bn_pron": [
+        [
+          "মুস-লিম",
+          false
+        ]
+      ],
+      "mean_bn": "মুসলমান",
+      "ar_mean_en": "Muslim; one who submits",
+      "via_persian": true,
+      "meaning_shift": "আরবি শব্দটা মুসলিম। মুসলমান রূপটা ফারসিতে তৈরি, তারপর বাংলায়।",
+      "note_bn": "ইসলাম যে গ্রহণ করে সে মুসলিম। ছাঁচ مُفْعِل মানে 'যে করে'।",
+      "example_ar": "أَنَا مُسْلِمٌ.",
+      "example_bn": "আমি মুসলমান।",
+      "audio_ar_text": "مُسْلِم",
+      "audio_bn_text": "মুসলমান। আরবিতে বলে মুসলিম, যে আল্লাহর কাছে নিজেকে সঁপে দেয়।",
+      "sources": [
+        "https://en.wiktionary.org/wiki/মুসলমান",
+        "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=مسلمان&searchhws=yes",
+        "https://en.wiktionary.org/wiki/مسلم#Arabic"
+      ]
+    },
+    {
+      "id": "salamat",
+      "bn": "সালামত",
+      "ar": "سَلَامَة",
+      "root": "س ل م",
+      "pattern": "فَعَالَة",
+      "bn_pron": [
+        [
+          "সা-লা-মা",
+          false
+        ]
+      ],
+      "mean_bn": "নিরাপত্তা, কুশল ('সহিসালামতে')",
+      "ar_mean_en": "safety; soundness; well-being",
+      "via_persian": true,
+      "meaning_shift": "আরবিতে যেকোনো নিরাপত্তা। বাংলায় প্রায় শুধু 'সহিসালামতে' কথায়।",
+      "note_bn": "শেষের ة ফারসি হয়ে বাংলায় ত: সালামা থেকে সালামত। আরবরা বিদায়ে বলে مَعَ السَّلَامَةِ।",
+      "example_ar": "مَعَ السَّلَامَةِ.",
+      "example_bn": "নিরাপদে থাকো (বিদায়)।",
+      "audio_ar_text": "سَلَامَة",
+      "audio_bn_text": "সালামত। আরবিতে সালামা মানে নিরাপত্তা।",
+      "sources": [
+        "https://bn.wiktionary.org/wiki/সালামত",
+        "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=سلامت&searchhws=yes",
+        "https://en.wiktionary.org/wiki/سلامة#Arabic"
+      ]
+    }
+  ]
+}

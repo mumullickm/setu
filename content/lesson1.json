@@ -1,0 +1,354 @@
+{
+  "id": "lesson1",
+  "title_bn": "যে আরবি আপনি আগেই জানেন",
+  "words": [
+    {
+      "id": "kitab",
+      "bn": "কিতাব",
+      "ar": "كِتَاب",
+      "root": "ك ت ب",
+      "pattern": "فِعَال",
+      "bn_pron": [
+        [
+          "কি-তা-ব",
+          false
+        ]
+      ],
+      "mean_bn": "বই (বাংলায় বেশি বোঝায় ধর্মীয় বই)",
+      "ar_mean_en": "book; scripture",
+      "via_persian": true,
+      "meaning_shift": "আরবিতে যেকোনো বই। বাংলায় কিতাব বললে সাধারণত ধর্মীয় বা মাদ্রাসার বই বোঝায়।",
+      "note_bn": "শিকড় ك ت ب মানে লেখা। মক্তবও এই শিকড় থেকে।",
+      "example_ar": "هَذَا كِتَابٌ جَدِيدٌ.",
+      "example_bn": "এটা একটা নতুন বই।",
+      "audio_ar_text": "كِتَاب",
+      "audio_bn_text": "কিতাব। আরবিতে কিতাব মানে বই।",
+      "sources": [
+        "https://en.wiktionary.org/wiki/কিতাব",
+        "https://en.wiktionary.org/wiki/كتاب#Arabic"
+      ]
+    },
+    {
+      "id": "qalam",
+      "bn": "কলম",
+      "ar": "قَلَم",
+      "root": "ق ل م",
+      "pattern": "فَعَل",
+      "bn_pron": [
+        [
+          "ক্বা",
+          true
+        ],
+        [
+          "-লাম",
+          false
+        ]
+      ],
+      "mean_bn": "কলম",
+      "ar_mean_en": "pen; pencil; handwriting",
+      "via_persian": true,
+      "meaning_shift": "",
+      "note_bn": "শুরুর ق জিভের একদম গোড়া থেকে, বাংলার ক নয়। শব্দটা আরবিতে এসেছে গ্রিক kalamos (নলখাগড়া) থেকে।",
+      "example_ar": "عِنْدِي قَلَمٌ أَزْرَقُ.",
+      "example_bn": "আমার কাছে একটা নীল কলম আছে।",
+      "audio_ar_text": "قَلَم",
+      "audio_bn_text": "কলম। আরবিতেও কলম মানে কলম।",
+      "sources": [
+        "https://en.wiktionary.org/wiki/কলম",
+        "https://en.wiktionary.org/wiki/قلم#Arabic"
+      ]
+    },
+    {
+      "id": "khabar",
+      "bn": "খবর",
+      "ar": "خَبَر",
+      "root": "خ ب ر",
+      "pattern": "فَعَل",
+      "bn_pron": [
+        [
+          "খা",
+          true
+        ],
+        [
+          "-বার",
+          false
+        ]
+      ],
+      "mean_bn": "সংবাদ, খোঁজ",
+      "ar_mean_en": "news; report; information",
+      "via_persian": true,
+      "meaning_shift": "",
+      "note_bn": "خ গলা ঘষে আসা খ, বাংলার খ এর চেয়ে খসখসে। قَبْر (কবর) এর সাথে গুলিয়ে ফেলবেন না।",
+      "example_ar": "هَذَا خَبَرٌ سَارٌّ.",
+      "example_bn": "এটা একটা খুশির খবর।",
+      "audio_ar_text": "خَبَر",
+      "audio_bn_text": "খবর। আরবিতে খাবার মানে সংবাদ।",
+      "sources": [
+        "https://en.wiktionary.org/wiki/খবর",
+        "https://en.wiktionary.org/wiki/خبر#Arabic"
+      ]
+    },
+    {
+      "id": "qabr",
+      "bn": "কবর",
+      "ar": "قَبْر",
+      "root": "ق ب ر",
+      "pattern": "فَعْل",
+      "bn_pron": [
+        [
+          "ক্বা",
+          true
+        ],
+        [
+          "ব্‌র",
+          false
+        ]
+      ],
+      "mean_bn": "কবর",
+      "ar_mean_en": "grave; tomb",
+      "via_persian": true,
+      "meaning_shift": "",
+      "note_bn": "খবর আর কবর: শুধু প্রথম অক্ষর আলাদা। خ বনাম ق।",
+      "example_ar": "زُرْتُ قَبْرَ جَدِّي.",
+      "example_bn": "আমি দাদার কবর জিয়ারত করেছি।",
+      "audio_ar_text": "قَبْر",
+      "audio_bn_text": "কবর। আরবিতেও কবর মানে কবর।",
+      "sources": [
+        "https://en.wiktionary.org/wiki/কবর",
+        "https://en.wiktionary.org/wiki/قبر#Arabic"
+      ]
+    },
+    {
+      "id": "hisab",
+      "bn": "হিসাব",
+      "ar": "حِسَاب",
+      "root": "ح س ب",
+      "pattern": "فِعَال",
+      "bn_pron": [
+        [
+          "হি",
+          true
+        ],
+        [
+          "-সা-ব",
+          false
+        ]
+      ],
+      "mean_bn": "হিসাব, গণনা, বিল",
+      "ar_mean_en": "calculation; account; reckoning",
+      "via_persian": true,
+      "meaning_shift": "",
+      "note_bn": "ح গলার মাঝখান থেকে, ফিসফিস করা ভারী হ। সাধারণ হ হলো ه।",
+      "example_ar": "هَذَا الْحِسَابُ صَحِيحٌ.",
+      "example_bn": "এই হিসাবটা ঠিক আছে।",
+      "audio_ar_text": "حِسَاب",
+      "audio_bn_text": "হিসাব। আরবিতে হিসাব মানে গণনা।",
+      "sources": [
+        "https://en.wiktionary.org/wiki/হিসাব",
+        "https://en.wiktionary.org/wiki/حساب#Arabic"
+      ]
+    },
+    {
+      "id": "dunya",
+      "bn": "দুনিয়া",
+      "ar": "دُنْيَا",
+      "root": "د ن و",
+      "pattern": "فُعْلَى",
+      "bn_pron": [
+        [
+          "দুন-ইয়া",
+          false
+        ]
+      ],
+      "mean_bn": "পৃথিবী, এই জগৎ, ইহকাল",
+      "ar_mean_en": "this world; worldly life (lit. the nearer/lower one)",
+      "via_persian": true,
+      "meaning_shift": "",
+      "note_bn": "আরবিতে শেষে লম্বা আ: দুন-ইয়া। আক্ষরিক মানে 'নিকটতর' জীবন, আখিরাতের উল্টো।",
+      "example_ar": "الدُّنْيَا قَصِيرَةٌ.",
+      "example_bn": "দুনিয়ার জীবন অল্প দিনের।",
+      "audio_ar_text": "دُنْيَا",
+      "audio_bn_text": "দুনিয়া। আরবিতে দুনিয়া মানে এই পৃথিবীর জীবন।",
+      "sources": [
+        "https://en.wiktionary.org/wiki/দুনিয়া",
+        "https://en.wiktionary.org/wiki/دنيا#Arabic"
+      ]
+    },
+    {
+      "id": "insaf",
+      "bn": "ইনসাফ",
+      "ar": "إِنْصَاف",
+      "root": "ن ص ف",
+      "pattern": "إِفْعَال",
+      "bn_pron": [
+        [
+          "ইন-",
+          false
+        ],
+        [
+          "সা",
+          true
+        ],
+        [
+          "-ফ",
+          false
+        ]
+      ],
+      "mean_bn": "ন্যায়বিচার, সুবিচার",
+      "ar_mean_en": "justice; fairness; equity",
+      "via_persian": true,
+      "meaning_shift": "",
+      "note_bn": "ص ভারী স, জিভ নামিয়ে মুখ ভরে বলুন। সাধারণ স হলো س। শিকড় ن ص ف মানে অর্ধেক: দুই পক্ষকে সমান ভাগ দেওয়াই ইনসাফ।",
+      "example_ar": "الْإِنْصَافُ وَاجِبٌ.",
+      "example_bn": "ইনসাফ করা কর্তব্য।",
+      "audio_ar_text": "إِنْصَاف",
+      "audio_bn_text": "ইনসাফ। আরবিতে ইনসাফ মানে ন্যায়বিচার।",
+      "sources": [
+        "https://en.wiktionary.org/wiki/ইনসাফ",
+        "https://en.wiktionary.org/wiki/إنصاف#Arabic"
+      ]
+    },
+    {
+      "id": "masjid",
+      "bn": "মসজিদ",
+      "ar": "مَسْجِد",
+      "root": "س ج د",
+      "pattern": "مَفْعِل",
+      "bn_pron": [
+        [
+          "মাস-জিদ",
+          false
+        ]
+      ],
+      "mean_bn": "মসজিদ, নামাজের ঘর",
+      "ar_mean_en": "mosque; lit. place of prostration",
+      "via_persian": true,
+      "meaning_shift": "",
+      "note_bn": "ছাঁচ مَفْعِل মানে জায়গা। سَجْدَة (সিজদা) করার জায়গা।",
+      "example_ar": "ذَهَبْتُ إِلَى الْمَسْجِدِ.",
+      "example_bn": "আমি মসজিদে গেলাম।",
+      "audio_ar_text": "مَسْجِد",
+      "audio_bn_text": "মসজিদ। আরবিতে মসজিদ মানে সিজদার জায়গা।",
+      "sources": [
+        "https://en.wiktionary.org/wiki/মসজিদ",
+        "https://en.wiktionary.org/wiki/مسجد#Arabic"
+      ]
+    },
+    {
+      "id": "madrasa",
+      "bn": "মাদ্রাসা",
+      "ar": "مَدْرَسَة",
+      "root": "د ر س",
+      "pattern": "مَفْعَلَة",
+      "bn_pron": [
+        [
+          "মাদ-রা-সা",
+          false
+        ]
+      ],
+      "mean_bn": "ইসলামি শিক্ষাপ্রতিষ্ঠান",
+      "ar_mean_en": "school (any school)",
+      "via_persian": false,
+      "meaning_shift": "আরবিতে যেকোনো স্কুল। বাংলায় শুধু ইসলামি শিক্ষাপ্রতিষ্ঠান।",
+      "note_bn": "دَرْس (দরস) মানে পাঠ। মাদ্রাসা = পাঠের জায়গা। আরবদের কাছে সাধারণ স্কুলও মাদ্রাসা।",
+      "example_ar": "أَذْهَبُ إِلَى الْمَدْرَسَةِ كُلَّ يَوْمٍ.",
+      "example_bn": "আমি প্রতিদিন স্কুলে যাই।",
+      "audio_ar_text": "مَدْرَسَة",
+      "audio_bn_text": "মাদ্রাসা। আরবিতে মাদরাসা মানে যেকোনো স্কুল।",
+      "sources": [
+        "https://en.wiktionary.org/wiki/মাদ্রাসা",
+        "https://en.wiktionary.org/wiki/مدرسة#Arabic"
+      ]
+    },
+    {
+      "id": "ilm",
+      "bn": "ইলম",
+      "ar": "عِلْم",
+      "root": "ع ل م",
+      "pattern": "فِعْل",
+      "bn_pron": [
+        [
+          "‘ই",
+          true
+        ],
+        [
+          "ল্‌ম",
+          false
+        ]
+      ],
+      "mean_bn": "জ্ঞান, বিশেষত দ্বীনি জ্ঞান",
+      "ar_mean_en": "knowledge; learning; (pl. عُلُوم) sciences",
+      "via_persian": false,
+      "meaning_shift": "",
+      "note_bn": "শুরুতে ع, গলা চেপে আসা আওয়াজ, বাংলায় নেই। عَالِم (আলেম) মানে জ্ঞানী। চলতি বাংলায় এলেম রূপটাও আছে।",
+      "example_ar": "طَلَبُ الْعِلْمِ فَرِيضَةٌ.",
+      "example_bn": "ইলম অর্জন করা ফরজ।",
+      "audio_ar_text": "عِلْم",
+      "audio_bn_text": "ইলম। আরবিতে ইলম মানে জ্ঞান।",
+      "sources": [
+        "https://en.wiktionary.org/wiki/علم#Arabic",
+        "https://en.wiktionary.org/wiki/এলেম"
+      ]
+    },
+    {
+      "id": "sabr",
+      "bn": "সবর",
+      "ar": "صَبْر",
+      "root": "ص ب ر",
+      "pattern": "فَعْل",
+      "bn_pron": [
+        [
+          "সা",
+          true
+        ],
+        [
+          "ব্‌র",
+          false
+        ]
+      ],
+      "mean_bn": "ধৈর্য",
+      "ar_mean_en": "patience; endurance; steadfastness",
+      "via_persian": false,
+      "meaning_shift": "",
+      "note_bn": "আবার সেই ভারী ص। 'সবর করো' আসলে আরবি।",
+      "example_ar": "الصَّبْرُ مِفْتَاحُ الْفَرَجِ.",
+      "example_bn": "সবর মুক্তির চাবি।",
+      "audio_ar_text": "صَبْر",
+      "audio_bn_text": "সবর। আরবিতে সবর মানে ধৈর্য।",
+      "sources": [
+        "https://en.wiktionary.org/wiki/সবর",
+        "https://en.wiktionary.org/wiki/صبر#Arabic"
+      ]
+    },
+    {
+      "id": "dua",
+      "bn": "দোয়া",
+      "ar": "دُعَاء",
+      "root": "د ع و",
+      "pattern": "فُعَال",
+      "bn_pron": [
+        [
+          "দু-",
+          false
+        ],
+        [
+          "‘আ’",
+          true
+        ]
+      ],
+      "mean_bn": "দোয়া, প্রার্থনা",
+      "ar_mean_en": "supplication; prayer; calling",
+      "via_persian": true,
+      "meaning_shift": "",
+      "note_bn": "মাঝে ع, শেষে হামযা ء (গলায় ছোট্ট থামা)। আরবিতে দু-‘আ’, দোয়া নয়।",
+      "example_ar": "اُدْعُ لِي.",
+      "example_bn": "আমার জন্য দোয়া কোরো।",
+      "audio_ar_text": "دُعَاء",
+      "audio_bn_text": "দোয়া। আরবিতে দুআ মানে আল্লাহর কাছে চাওয়া।",
+      "sources": [
+        "https://en.wiktionary.org/wiki/দোয়া",
+        "https://en.wiktionary.org/wiki/دعاء#Arabic"
+      ]
+    }
+  ]
+}

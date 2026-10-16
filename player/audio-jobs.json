@@ -1,0 +1,254 @@
+[
+ {
+  "id": "kitab",
+  "n": 1,
+  "ar": "كِتَاب",
+  "bn": "কিতাব। আরবিতে কিতাব মানে বই।",
+  "en": "Kitab. In Arabic, kitaab. It means book."
+ },
+ {
+  "id": "qalam",
+  "n": 1,
+  "ar": "قَلَم",
+  "bn": "কলম। আরবিতেও কলম মানে কলম।",
+  "en": "Kolom. In Arabic, qalam. It means pen."
+ },
+ {
+  "id": "khabar",
+  "n": 1,
+  "ar": "خَبَر",
+  "bn": "খবর। আরবিতে খাবার মানে সংবাদ।",
+  "en": "Khobor. In Arabic, khabar. It means news."
+ },
+ {
+  "id": "qabr",
+  "n": 1,
+  "ar": "قَبْر",
+  "bn": "কবর। আরবিতেও কবর মানে কবর।",
+  "en": "Kobor. In Arabic, qabr. It means grave."
+ },
+ {
+  "id": "hisab",
+  "n": 1,
+  "ar": "حِسَاب",
+  "bn": "হিসাব। আরবিতে হিসাব মানে গণনা।",
+  "en": "Hishab. In Arabic, hisaab. It means calculation."
+ },
+ {
+  "id": "dunya",
+  "n": 1,
+  "ar": "دُنْيَا",
+  "bn": "দুনিয়া। আরবিতে দুনিয়া মানে এই পৃথিবীর জীবন।",
+  "en": "Duniya. In Arabic, dunya. It means this world."
+ },
+ {
+  "id": "insaf",
+  "n": 1,
+  "ar": "إِنْصَاف",
+  "bn": "ইনসাফ। আরবিতে ইনসাফ মানে ন্যায়বিচার।",
+  "en": "Inshaf. In Arabic, insaaf. It means justice."
+ },
+ {
+  "id": "masjid",
+  "n": 1,
+  "ar": "مَسْجِد",
+  "bn": "মসজিদ। আরবিতে মসজিদ মানে সিজদার জায়গা।",
+  "en": "Moshjid. In Arabic, masjid. It means place of prostration."
+ },
+ {
+  "id": "madrasa",
+  "n": 1,
+  "ar": "مَدْرَسَة",
+  "bn": "মাদ্রাসা। আরবিতে মাদরাসা মানে যেকোনো স্কুল।",
+  "en": "Madrasa. In Arabic, madrasah. It means any school."
+ },
+ {
+  "id": "ilm",
+  "n": 1,
+  "ar": "عِلْم",
+  "bn": "ইলম। আরবিতে ইলম মানে জ্ঞান।",
+  "en": "Ilm. In Arabic, ilm. It means knowledge."
+ },
+ {
+  "id": "sabr",
+  "n": 1,
+  "ar": "صَبْر",
+  "bn": "সবর। আরবিতে সবর মানে ধৈর্য।",
+  "en": "Shobur. In Arabic, sabr. It means patience."
+ },
+ {
+  "id": "dua",
+  "n": 1,
+  "ar": "دُعَاء",
+  "bn": "দোয়া। আরবিতে দুআ মানে আল্লাহর কাছে চাওয়া।",
+  "en": "Doa. In Arabic, du-aa. It means asking God."
+ },
+ {
+  "id": "alim",
+  "n": 2,
+  "ar": "عَالِم",
+  "bn": "আলেম। আরবিতে আলিম মানে জ্ঞানী মানুষ।",
+  "en": "Alem. In Arabic, aalim. It means a learned person."
+ },
+ {
+  "id": "ulama",
+  "n": 2,
+  "ar": "عُلَمَاء",
+  "bn": "ওলামা। আরবিতে উলামা মানে আলেমরা, আলিম শব্দের বহুবচন।",
+  "en": "Olama. In Arabic, ulamaa. It means scholars."
+ },
+ {
+  "id": "talim",
+  "n": 2,
+  "ar": "تَعْلِيم",
+  "bn": "তালিম। আরবিতে তা'লীম মানে শিক্ষা দেওয়া।",
+  "en": "Talim. In Arabic, ta-leem. It means teaching."
+ },
+ {
+  "id": "malum",
+  "n": 2,
+  "ar": "مَعْلُوم",
+  "bn": "মালুম। আরবিতে মা'লূম মানে জানা, স্পষ্ট।",
+  "en": "Malum. In Arabic, ma-loom. It means known."
+ },
+ {
+  "id": "hukm",
+  "n": 2,
+  "ar": "حُكْم",
+  "bn": "হুকুম। আরবিতে হুকম মানে রায় বা বিধান।",
+  "en": "Hukum. In Arabic, hukm. It means a ruling."
+ },
+ {
+  "id": "hakim",
+  "n": 2,
+  "ar": "حَاكِم",
+  "bn": "হাকিম। আরবিতে হাকিম মানে শাসক বা বিচারক।",
+  "en": "Hakim. In Arabic, haakim. It means ruler or judge."
+ },
+ {
+  "id": "hakeem",
+  "n": 2,
+  "ar": "حَكِيم",
+  "bn": "হেকিম। আরবিতে হাকীম মানে জ্ঞানী।",
+  "en": "Hekim. In Arabic, hakeem. It means wise."
+ },
+ {
+  "id": "hikma",
+  "n": 2,
+  "ar": "حِكْمَة",
+  "bn": "হেকমত। আরবিতে হিকমা মানে প্রজ্ঞা।",
+  "en": "Hekmot. In Arabic, hikmah. It means wisdom."
+ },
+ {
+  "id": "amal",
+  "n": 2,
+  "ar": "عَمَل",
+  "bn": "আমল। আরবিতে আমাল মানে কাজ।",
+  "en": "Amol. In Arabic, amal. It means work."
+ },
+ {
+  "id": "amla",
+  "n": 2,
+  "ar": "عَمَلَة",
+  "bn": "আমলা। আরবিতে আমালা মানে কর্মীরা।",
+  "en": "Amla. In Arabic, amalah. It means workers."
+ },
+ {
+  "id": "mamla",
+  "n": 2,
+  "ar": "مُعَامَلَة",
+  "bn": "মামলা। আরবিতে মুআমালা মানে লেনদেন।",
+  "en": "Mamla. In Arabic, mu-aamalah. It means dealing."
+ },
+ {
+  "id": "mamuli",
+  "n": 2,
+  "ar": "مَعْمُول",
+  "bn": "মামুলি। আরবিতে মা'মূল মানে যা প্রচলিত।",
+  "en": "Mamuli. In Arabic, ma-mool. It means customary."
+ },
+ {
+  "id": "maktab",
+  "n": 3,
+  "ar": "مَكْتَب",
+  "bn": "মক্তব। আরবিতে মাকতাব মানে অফিস, লেখার জায়গা।",
+  "en": "Moktob. In Arabic, maktab. It means office, a place of writing."
+ },
+ {
+  "id": "majlis",
+  "n": 3,
+  "ar": "مَجْلِس",
+  "bn": "মজলিস। আরবিতে মাজলিস মানে বসার জায়গা।",
+  "en": "Mojlish. In Arabic, majlis. It means a place of sitting."
+ },
+ {
+  "id": "mahalla",
+  "n": 3,
+  "ar": "مَحَلَّة",
+  "bn": "মহল্লা। আরবিতে মাহাল্লা মানে শহরের পাড়া।",
+  "en": "Moholla. In Arabic, mahallah. It means a town quarter."
+ },
+ {
+  "id": "mahfil",
+  "n": 3,
+  "ar": "مَحْفِل",
+  "bn": "মাহফিল। আরবিতে মাহফিল মানে জমায়েত।",
+  "en": "Mahfil. In Arabic, mahfil. It means a gathering."
+ },
+ {
+  "id": "jamaat",
+  "n": 3,
+  "ar": "جَمَاعَة",
+  "bn": "জামাত। আরবিতে জামাআ মানে দল, একসাথে থাকা মানুষ।",
+  "en": "Jamat. In Arabic, jamaa-ah. It means a group."
+ },
+ {
+  "id": "juma",
+  "n": 3,
+  "ar": "جُمُعَة",
+  "bn": "জুমা। আরবিতে জুমুআ মানে শুক্রবার, জমায়েতের দিন।",
+  "en": "Juma. In Arabic, jumu-ah. It means Friday, the day of gathering."
+ },
+ {
+  "id": "jama",
+  "n": 3,
+  "ar": "جَمْع",
+  "bn": "জমা। আরবিতে জাম মানে জড়ো করা।",
+  "en": "Joma. In Arabic, jam. It means gathering."
+ },
+ {
+  "id": "jame",
+  "n": 3,
+  "ar": "جَامِع",
+  "bn": "জামে। আরবিতে জামি মানে বড় মসজিদ, যা সবাইকে জড়ো করে।",
+  "en": "Jame. In Arabic, jaami. It means the mosque that gathers everyone."
+ },
+ {
+  "id": "salam",
+  "n": 3,
+  "ar": "سَلَام",
+  "bn": "সালাম। আরবিতে সালাম মানে শান্তি।",
+  "en": "Salam. In Arabic, salaam. It means peace."
+ },
+ {
+  "id": "islam",
+  "n": 3,
+  "ar": "إِسْلَام",
+  "bn": "ইসলাম। আরবিতে ইসলাম মানে আল্লাহর কাছে নিজেকে সঁপে দেওয়া।",
+  "en": "Islam. In Arabic, islaam. It means submitting to God."
+ },
+ {
+  "id": "muslim",
+  "n": 3,
+  "ar": "مُسْلِم",
+  "bn": "মুসলমান। আরবিতে বলে মুসলিম, যে আল্লাহর কাছে নিজেকে সঁপে দেয়।",
+  "en": "Musolman. In Arabic, muslim. One who submits to God."
+ },
+ {
+  "id": "salamat",
+  "n": 3,
+  "ar": "سَلَامَة",
+  "bn": "সালামত। আরবিতে সালামা মানে নিরাপত্তা।",
+  "en": "Salamot. In Arabic, salaamah. It means safety."
+ }
+]

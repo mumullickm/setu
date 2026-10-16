@@ -1,0 +1,391 @@
+{
+  "id": "lesson2",
+  "title_bn": "জ্ঞান, হুকুম আর কাজ: তিনটা শিকড়",
+  "words": [
+    {
+      "id": "alim",
+      "bn": "আলেম",
+      "ar": "عَالِم",
+      "root": "ع ل م",
+      "pattern": "فَاعِل",
+      "bn_pron": [
+        [
+          "‘আ",
+          true
+        ],
+        [
+          "-লিম",
+          false
+        ]
+      ],
+      "mean_bn": "আলেম, দ্বীনি পণ্ডিত",
+      "ar_mean_en": "scholar; learned person (active participle of عَلِمَ, to know)",
+      "via_persian": false,
+      "meaning_shift": "",
+      "note_bn": "ইলম যার আছে সে আলেম। ছাঁচ فَاعِل মানে 'যে করে'। আরবিতে উচ্চারণ ‘আ-লিম, শুরুতে ع।",
+      "example_ar": "أَبُوهُ عَالِمٌ كَبِيرٌ.",
+      "example_bn": "তার বাবা একজন বড় আলেম।",
+      "audio_ar_text": "عَالِم",
+      "audio_bn_text": "আলেম। আরবিতে আলিম মানে জ্ঞানী মানুষ।",
+      "sources": [
+        "https://en.wiktionary.org/wiki/আলেম",
+        "https://en.wiktionary.org/wiki/عالم#Arabic"
+      ]
+    },
+    {
+      "id": "ulama",
+      "bn": "ওলামা",
+      "ar": "عُلَمَاء",
+      "root": "ع ل م",
+      "pattern": "فُعَلَاء",
+      "bn_pron": [
+        [
+          "‘উ",
+          true
+        ],
+        [
+          "-লা-মা",
+          false
+        ],
+        [
+          "’",
+          true
+        ]
+      ],
+      "mean_bn": "আলেমরা, ওলামা সমাজ",
+      "ar_mean_en": "scholars (plural of عَالِم)",
+      "via_persian": false,
+      "meaning_shift": "",
+      "note_bn": "আলেমের বহুবচন। শেষে হামযা ء, ছোট্ট থামা। বাংলায় 'ওলামা-মাশায়েখ' খুব চলে।",
+      "example_ar": "الْعُلَمَاءُ وَرَثَةُ الْأَنْبِيَاءِ.",
+      "example_bn": "আলেমরা নবীদের উত্তরাধিকারী।",
+      "audio_ar_text": "عُلَمَاء",
+      "audio_bn_text": "ওলামা। আরবিতে উলামা মানে আলেমরা, আলিম শব্দের বহুবচন।",
+      "sources": [
+        "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=علما&searchhws=yes",
+        "https://en.wiktionary.org/wiki/আলেম"
+      ]
+    },
+    {
+      "id": "talim",
+      "bn": "তালিম",
+      "ar": "تَعْلِيم",
+      "root": "ع ل م",
+      "pattern": "تَفْعِيل",
+      "bn_pron": [
+        [
+          "তা",
+          false
+        ],
+        [
+          "‘",
+          true
+        ],
+        [
+          "-লীম",
+          false
+        ]
+      ],
+      "mean_bn": "প্রশিক্ষণ, অনুশীলন (গানের তালিম, ফুটবলের তালিম)",
+      "ar_mean_en": "teaching; education; instruction",
+      "via_persian": true,
+      "meaning_shift": "আরবিতে শিক্ষা দেওয়া, শিক্ষাব্যবস্থা। বাংলায় বেশি বোঝায় হাতে কলমে প্রশিক্ষণ বা চর্চা।",
+      "note_bn": "ছাঁচ تَفْعِيل মানে কাউকে দিয়ে কাজটা করানো: عَلَّمَ = শেখানো, তাই তালিম = শেখানো।",
+      "example_ar": "التَّعْلِيمُ مُهِمٌّ.",
+      "example_bn": "শিক্ষা খুব জরুরি।",
+      "audio_ar_text": "تَعْلِيم",
+      "audio_bn_text": "তালিম। আরবিতে তা'লীম মানে শিক্ষা দেওয়া।",
+      "sources": [
+        "https://en.wiktionary.org/wiki/তালিম",
+        "https://en.wiktionary.org/wiki/تعليم#Arabic"
+      ]
+    },
+    {
+      "id": "malum",
+      "bn": "মালুম",
+      "ar": "مَعْلُوم",
+      "root": "ع ل م",
+      "pattern": "مَفْعُول",
+      "bn_pron": [
+        [
+          "মা",
+          false
+        ],
+        [
+          "‘",
+          true
+        ],
+        [
+          "-লূম",
+          false
+        ]
+      ],
+      "mean_bn": "টের পাওয়া, অনুভব ('মালুম হওয়া')",
+      "ar_mean_en": "known; evident; certain",
+      "via_persian": true,
+      "meaning_shift": "আরবিতে 'জানা', 'স্পষ্ট'। বাংলায় 'মালুম হওয়া' মানে টের পাওয়া, অনুভব করা।",
+      "note_bn": "ছাঁচ مَفْعُول মানে 'যার উপর কাজটা হয়েছে': জানা হয়েছে এমন জিনিস। মাঝের ع বাংলায় হারিয়ে গেছে।",
+      "example_ar": "هَذَا أَمْرٌ مَعْلُومٌ.",
+      "example_bn": "এটা জানা কথা।",
+      "audio_ar_text": "مَعْلُوم",
+      "audio_bn_text": "মালুম। আরবিতে মা'লূম মানে জানা, স্পষ্ট।",
+      "sources": [
+        "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=معلوم&searchhws=yes",
+        "https://dsal.uchicago.edu/cgi-bin/app/biswas-bengali_query.py?qs=মালুম",
+        "https://en.wiktionary.org/wiki/मालूम"
+      ]
+    },
+    {
+      "id": "hukm",
+      "bn": "হুকুম",
+      "ar": "حُكْم",
+      "root": "ح ك م",
+      "pattern": "فُعْل",
+      "bn_pron": [
+        [
+          "হু",
+          true
+        ],
+        [
+          "ক্‌ম",
+          false
+        ]
+      ],
+      "mean_bn": "আদেশ, নির্দেশ",
+      "ar_mean_en": "ruling; judgment; verdict; rule, authority",
+      "via_persian": true,
+      "meaning_shift": "আরবিতে মূলত রায়, বিধান, শাসন। বাংলায় মানে আদেশ (আরবিতে আদেশ হলো أَمْر)।",
+      "note_bn": "শুরুতে ভারী ح। আরবিতে এক সিলেবল: হুক্‌ম। মাঝে উ যোগ হয়েছে বাংলায়।",
+      "example_ar": "صَدَرَ الْحُكْمُ الْيَوْمَ.",
+      "example_bn": "আজ রায় ঘোষণা হয়েছে।",
+      "audio_ar_text": "حُكْم",
+      "audio_bn_text": "হুকুম। আরবিতে হুকম মানে রায় বা বিধান।",
+      "sources": [
+        "https://en.wiktionary.org/wiki/হুকুম",
+        "https://en.wiktionary.org/wiki/حكم#Arabic",
+        "https://dsal.uchicago.edu/cgi-bin/app/biswas-bengali_query.py?qs=তামিল"
+      ]
+    },
+    {
+      "id": "hakim",
+      "bn": "হাকিম",
+      "ar": "حَاكِم",
+      "root": "ح ك م",
+      "pattern": "فَاعِل",
+      "bn_pron": [
+        [
+          "হা",
+          true
+        ],
+        [
+          "-কিম",
+          false
+        ]
+      ],
+      "mean_bn": "বিচারক, ম্যাজিস্ট্রেট, শাসক",
+      "ar_mean_en": "ruler; governor; judge",
+      "via_persian": true,
+      "meaning_shift": "",
+      "note_bn": "ছাঁচ فَاعِل: যে হুকুম চালায়। সাবধান: বাংলায় হাকিম কখনো হেকিম (ডাক্তার) অর্থেও চলে, সেটা আলাদা শব্দ حَكِيم।",
+      "example_ar": "الْحَاكِمُ عَادِلٌ.",
+      "example_bn": "শাসক ন্যায়পরায়ণ।",
+      "audio_ar_text": "حَاكِم",
+      "audio_bn_text": "হাকিম। আরবিতে হাকিম মানে শাসক বা বিচারক।",
+      "sources": [
+        "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=حاكم&searchhws=yes",
+        "https://dsal.uchicago.edu/cgi-bin/app/biswas-bengali_query.py?qs=হাকিম",
+        "https://en.wiktionary.org/wiki/হাকিম"
+      ]
+    },
+    {
+      "id": "hakeem",
+      "bn": "হেকিম",
+      "ar": "حَكِيم",
+      "root": "ح ك م",
+      "pattern": "فَعِيل",
+      "bn_pron": [
+        [
+          "হা",
+          true
+        ],
+        [
+          "-কীম",
+          false
+        ]
+      ],
+      "mean_bn": "ইউনানি চিকিৎসক, কবিরাজ",
+      "ar_mean_en": "wise; sage; (also) physician",
+      "via_persian": true,
+      "meaning_shift": "আরবিতে মূল মানে জ্ঞানী, প্রজ্ঞাবান। উপমহাদেশে এটা হয়ে গেছে ইউনানি ডাক্তার।",
+      "note_bn": "ছাঁচ فَعِيل গুণ বোঝায়: খুব জ্ঞানী। আল্লাহর নাম আল-হাকীমও এটাই।",
+      "example_ar": "كَانَ جَدِّي رَجُلًا حَكِيمًا.",
+      "example_bn": "আমার দাদা ছিলেন একজন জ্ঞানী মানুষ।",
+      "audio_ar_text": "حَكِيم",
+      "audio_bn_text": "হেকিম। আরবিতে হাকীম মানে জ্ঞানী।",
+      "sources": [
+        "https://dsal.uchicago.edu/cgi-bin/app/biswas-bengali_query.py?qs=হকিম",
+        "https://en.wiktionary.org/wiki/হাকিম",
+        "https://en.wiktionary.org/wiki/حكيم#Arabic"
+      ]
+    },
+    {
+      "id": "hikma",
+      "bn": "হেকমত",
+      "ar": "حِكْمَة",
+      "root": "ح ك م",
+      "pattern": "فِعْلَة",
+      "bn_pron": [
+        [
+          "হি",
+          true
+        ],
+        [
+          "ক-মা",
+          false
+        ]
+      ],
+      "mean_bn": "কৌশল, বুদ্ধি; দ্বীনি অর্থে প্রজ্ঞা",
+      "ar_mean_en": "wisdom",
+      "via_persian": true,
+      "meaning_shift": "আরবিতে প্রজ্ঞা। চলতি বাংলায় 'হেকমত করে' মানে কৌশলে, বুদ্ধি খাটিয়ে।",
+      "note_bn": "আরবি শব্দের শেষে ة, ফারসি হয়ে বাংলায় এসে ত হয়ে গেছে: হিকমা থেকে হেকমত।",
+      "example_ar": "فِي كَلَامِهِ حِكْمَةٌ.",
+      "example_bn": "তার কথায় প্রজ্ঞা আছে।",
+      "audio_ar_text": "حِكْمَة",
+      "audio_bn_text": "হেকমত। আরবিতে হিকমা মানে প্রজ্ঞা।",
+      "sources": [
+        "https://en.wiktionary.org/wiki/हिकमत",
+        "https://dsal.uchicago.edu/cgi-bin/app/biswas-bengali_query.py?qs=হিকমত",
+        "https://en.wiktionary.org/wiki/حكمة#Arabic"
+      ]
+    },
+    {
+      "id": "amal",
+      "bn": "আমল",
+      "ar": "عَمَل",
+      "root": "ع م ل",
+      "pattern": "فَعَل",
+      "bn_pron": [
+        [
+          "‘আ",
+          true
+        ],
+        [
+          "-মাল",
+          false
+        ]
+      ],
+      "mean_bn": "আমল, নেক কাজ; শাসনকাল ('ব্রিটিশ আমল')",
+      "ar_mean_en": "work; deed; action",
+      "via_persian": true,
+      "meaning_shift": "",
+      "note_bn": "ع ل م আর ع م ل: একই তিন অক্ষর, ক্রম আলাদা। ইলম = জানা, আমল = করা।",
+      "example_ar": "الْعِلْمُ بِلَا عَمَلٍ لَا يَنْفَعُ.",
+      "example_bn": "আমল ছাড়া ইলম কাজে আসে না।",
+      "audio_ar_text": "عَمَل",
+      "audio_bn_text": "আমল। আরবিতে আমাল মানে কাজ।",
+      "sources": [
+        "https://en.wiktionary.org/wiki/আমল",
+        "https://en.wiktionary.org/wiki/عمل#Arabic"
+      ]
+    },
+    {
+      "id": "amla",
+      "bn": "আমলা",
+      "ar": "عَمَلَة",
+      "root": "ع م ل",
+      "pattern": "فَعَلَة",
+      "bn_pron": [
+        [
+          "‘আ",
+          true
+        ],
+        [
+          "-মা-লা",
+          false
+        ]
+      ],
+      "mean_bn": "সরকারি কর্মকর্তা, আমলা",
+      "ar_mean_en": "workers, agents (plural of عَامِل)",
+      "via_persian": true,
+      "meaning_shift": "আরবিতে কর্মীরা (বহুবচন)। ফারসি হয়ে বাংলায় মানে সরকারি অফিসার। আজকের আরবিতে عُمْلَة মানে মুদ্রা, ওটা আলাদা।",
+      "note_bn": "عَامِل (যে কাজ করে) এর বহুবচন। আমলাতন্ত্র কথাটাও এখান থেকে।",
+      "example_ar": "الْعَمَلَةُ جَمْعُ عَامِلٍ.",
+      "example_bn": "আমালা হলো আমিল (কর্মী) শব্দের বহুবচন।",
+      "audio_ar_text": "عَمَلَة",
+      "audio_bn_text": "আমলা। আরবিতে আমালা মানে কর্মীরা।",
+      "sources": [
+        "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=عمله&searchhws=yes",
+        "https://dsal.uchicago.edu/cgi-bin/app/biswas-bengali_query.py?qs=আমলা"
+      ]
+    },
+    {
+      "id": "mamla",
+      "bn": "মামলা",
+      "ar": "مُعَامَلَة",
+      "root": "ع م ل",
+      "pattern": "مُفَاعَلَة",
+      "bn_pron": [
+        [
+          "মু-",
+          false
+        ],
+        [
+          "‘আ",
+          true
+        ],
+        [
+          "-মা-লা",
+          false
+        ]
+      ],
+      "mean_bn": "আদালতের মামলা",
+      "ar_mean_en": "dealing; transaction; treatment (of someone)",
+      "via_persian": false,
+      "meaning_shift": "আরবিতে লেনদেন, আচরণ। বাংলায় মানে আদালতের মামলা। আরবিতে মামলা হলো قَضِيَّة।",
+      "note_bn": "ছাঁচ مُفَاعَلَة মানে দুই পক্ষের কাজ: পরস্পর লেনদেন। মুআমালা থেকে ছোট হয়ে মামলা।",
+      "example_ar": "بَيْنَنَا مُعَامَلَةٌ تِجَارِيَّةٌ.",
+      "example_bn": "আমাদের মধ্যে একটা ব্যবসায়িক লেনদেন আছে।",
+      "audio_ar_text": "مُعَامَلَة",
+      "audio_bn_text": "মামলা। আরবিতে মুআমালা মানে লেনদেন।",
+      "sources": [
+        "https://en.wiktionary.org/wiki/মামলা",
+        "https://en.wiktionary.org/wiki/معاملة#Arabic"
+      ]
+    },
+    {
+      "id": "mamuli",
+      "bn": "মামুলি",
+      "ar": "مَعْمُول",
+      "root": "ع م ل",
+      "pattern": "مَفْعُول",
+      "bn_pron": [
+        [
+          "মা",
+          false
+        ],
+        [
+          "‘",
+          true
+        ],
+        [
+          "-মূল",
+          false
+        ]
+      ],
+      "mean_bn": "সাধারণ, তুচ্ছ ('মামুলি ব্যাপার')",
+      "ar_mean_en": "done, made; in force, practised (مَعْمُول بِهِ)",
+      "via_persian": true,
+      "meaning_shift": "আরবিতে 'যা করা হয়', প্রচলিত। ফারসি-উর্দুতে 'মামুলি' = সাধারণ। বাংলায় তুচ্ছ, নগণ্য।",
+      "note_bn": "মালুমের মতো একই ছাঁচ مَفْعُول। শেষের ই পরে যোগ হয়েছে।",
+      "example_ar": "هَذَا الْقَانُونُ مَعْمُولٌ بِهِ.",
+      "example_bn": "এই আইনটা চালু আছে।",
+      "audio_ar_text": "مَعْمُول",
+      "audio_bn_text": "মামুলি। আরবিতে মা'মূল মানে যা প্রচলিত।",
+      "sources": [
+        "https://dsal.uchicago.edu/cgi-bin/app/platts_query.py?qs=معمولي&searchhws=yes",
+        "https://en.wiktionary.org/wiki/আমল"
+      ]
+    }
+  ]
+}

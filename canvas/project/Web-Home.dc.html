@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<title>Setu web home</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;500;600&amp;family=Noto+Sans+Bengali:wght@400;500;600;700&amp;display=swap">
+<style>
+body{margin:0}
+a{color:#0B7A55}a:hover{color:#08603F}
+.ar{font-family:'Noto Naskh Arabic','Geeza Pro',serif;direction:rtl;font-weight:500}
+button{font-family:inherit;cursor:pointer}
+</style>
+</helmet>
+<div style="min-height: 1000px; box-sizing: border-box; background: #F5F5F7; font-family: 'Noto Sans Bengali', -apple-system, system-ui, sans-serif; color: #1D1D1F; display: flex; flex-wrap: wrap">
+
+<aside style="flex: 1 1 240px; max-width: 100%; box-sizing: border-box; background: rgba(250,250,252,.9); border-right: 0.5px solid rgba(60,60,67,.18); padding: 28px 16px; display: flex; flex-direction: column; gap: 24px">
+<div style="display: flex; align-items: baseline; gap: 10px; padding: 0 10px">
+<span style="font-size: 26px; font-weight: 700; color: #0B7A55">{{t.brand}}</span>
+<span class="ar" style="font-size: 22px; color: #6E6E73">جِسْر</span>
+<span style="font-size: 12px; font-weight: 600; color: #6E6E73">{{brandPr}}</span>
+</div>
+<nav style="display: flex; flex-direction: column; gap: 2px">
+<sc-for list="{{nav}}" as="n" hint-placeholder-count="6">
+<a href="{{n.href}}" style="display: flex; align-items: center; gap: 12px; min-height: 44px; padding: 0 12px; border-radius: 10px; background: {{n.bg}}; color: {{n.ink}}; text-decoration: none; font-weight: {{n.fw}}; font-size: 15px">{{n.label}}</a>
+</sc-for>
+</nav>
+<div style="margin-top: auto; display: flex; flex-direction: column; gap: 8px; padding: 0 4px">
+<span style="font-size: 12px; font-weight: 600; color: #6E6E73; padding-left: 6px">{{t.langLabel}}</span>
+<div role="group" aria-label="App language" style="display: flex; background: #E5E5EA; border-radius: 10px; padding: 3px; gap: 2px">
+<button type="button" onClick="{{setBn}}" aria-pressed="{{isBn}}" style="flex: 1; min-height: 38px; border: 0; border-radius: 8px; font-size: 14px; font-weight: 600; background: {{bnBg}}; color: {{bnInk}}; box-shadow: {{bnSh}}">বাংলা</button>
+<button type="button" onClick="{{setEn}}" aria-pressed="{{isEn}}" style="flex: 1; min-height: 38px; border: 0; border-radius: 8px; font-size: 14px; font-weight: 600; background: {{enBg}}; color: {{enInk}}; box-shadow: {{enSh}}">English</button>
+</div>
+<span style="font-size: 12px; color: #A1A1A6; padding-left: 6px; line-height: 1.5">{{t.langNote}}</span>
+</div>
+</aside>
+
+<main style="flex: 999 1 560px; min-width: 0; box-sizing: border-box; padding: 36px 40px 48px">
+<div style="max-width: 1080px; margin: 0 auto; display: flex; flex-direction: column; gap: 20px">
+
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 16px">
+<div style="display: flex; flex-direction: column; gap: 2px">
+<span style="font-size: 15px; font-weight: 600; color: #6E6E73">{{t.greet}}</span>
+<h1 style="margin: 0; font-size: 36px; line-height: 1.2; letter-spacing: -0.01em">{{t.title}}</h1>
+</div>
+<div style="display: flex; align-items: center; gap: 10px">
+<span style="width: 34px; height: 34px; border-radius: 50%; background: #0B7A55; color: #FFFFFF; font-size: 13px; font-weight: 600; display: flex; align-items: center; justify-content: center">{{t.me}}</span>
+<span style="width: 34px; height: 34px; border-radius: 50%; background: #8E5A86; color: #FFFFFF; font-size: 12px; font-weight: 600; display: flex; align-items: center; justify-content: center; margin-left: -16px; border: 2px solid #F5F5F7; box-sizing: border-box">{{t.her}}</span>
+<span style="font-size: 15px; font-weight: 600; color: #6E6E73">{{t.streak}}</span>
+</div>
+</div>
+
+<div style="display: flex; flex-wrap: wrap; gap: 20px">
+<div style="flex: 2 1 420px; min-width: 0; background: #FFFFFF; border-radius: 22px; box-shadow: 0 1px 2px rgba(0,0,0,.04), 0 8px 24px rgba(0,0,0,.06); padding: 28px; display: flex; flex-wrap: wrap; gap: 24px; align-items: center; justify-content: space-between">
+<div style="display: flex; flex-direction: column; gap: 8px; flex: 1 1 240px">
+<span style="font-size: 14px; font-weight: 600; color: #6E6E73">{{t.lessonEye}}</span>
+<span style="font-size: 28px; font-weight: 700; line-height: 1.3">{{t.lessonTitle}}</span>
+<span style="font-size: 15px; color: #6E6E73">{{t.lessonMeta}}</span>
+<a href="MWeb-Lesson.dc.html" style="margin-top: 10px; align-self: flex-start; background: #0B7A55; color: #FFFFFF; text-decoration: none; font-weight: 600; font-size: 17px; border-radius: 14px; padding: 0 28px; min-height: 52px; display: flex; align-items: center">{{t.start}}</a>
+</div>
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; flex: 0 1 240px">
+<sc-for list="{{lessonWords}}" as="w" hint-placeholder-count="4">
+<div style="background: #F5F5F7; border-radius: 14px; padding: 6px 4px 10px; display: flex; flex-direction: column; align-items: center">
+<span class="ar" style="font-size: 28px; line-height: 1.6">{{w.ar}}</span>
+<span style="font-size: 13px; font-weight: 600"><sc-for list="{{w.pr}}" as="s"><span style="color: {{s.c}}">{{s.t}}</span></sc-for></span>
+</div>
+</sc-for>
+</div>
+</div>
+<div style="flex: 1 1 280px; min-width: 0; background: #FFFFFF; border-radius: 22px; box-shadow: 0 1px 2px rgba(0,0,0,.04), 0 8px 24px rgba(0,0,0,.06); padding: 24px; display: flex; flex-direction: column; gap: 10px">
+<span style="font-size: 14px; font-weight: 600; color: #6E6E73">{{t.known}}</span>
+<div style="display: flex; align-items: baseline; gap: 8px"><span style="font-size: 56px; font-weight: 700; color: #0B7A55; line-height: 1; letter-spacing: -0.02em">{{t.count}}</span><span style="font-size: 18px; font-weight: 600">{{t.unit}}</span></div>
+<div style="height: 6px; background: #EDEDF0; border-radius: 3px; overflow: hidden"><div style="width: 6%; height: 6px; background: #0B7A55; border-radius: 3px"></div></div>
+<span style="font-size: 14px; color: #6E6E73; line-height: 1.5">{{t.of}}</span>
+</div>
+</div>
+
+<div style="display: flex; flex-wrap: wrap; gap: 20px">
+<a href="App-Review.dc.html" style="flex: 1 1 240px; min-width: 0; background: #FFFFFF; border-radius: 22px; box-shadow: 0 1px 2px rgba(0,0,0,.04), 0 8px 24px rgba(0,0,0,.06); padding: 20px; text-decoration: none; color: #1D1D1F; display: flex; flex-direction: column; gap: 6px">
+<span style="font-size: 14px; font-weight: 600; color: #6E6E73">{{t.review}}</span>
+<span style="font-size: 24px; font-weight: 700">{{t.reviewN}}</span>
+<span style="font-size: 14px; color: #6E6E73; display: flex; align-items: center; gap: 8px">{{t.next}} <span class="ar" style="font-size: 19px; color: #1D1D1F">مَسْجِد</span> <span style="font-weight: 600; color: #1D1D1F">{{masjidPr}}</span></span>
+</a>
+<a href="Web-Roots.dc.html" style="flex: 1 1 240px; min-width: 0; background: #FFFFFF; border-radius: 22px; box-shadow: 0 1px 2px rgba(0,0,0,.04), 0 8px 24px rgba(0,0,0,.06); padding: 20px; text-decoration: none; color: #1D1D1F; display: flex; flex-direction: column; gap: 6px">
+<span style="font-size: 14px; font-weight: 600; color: #6E6E73">{{t.root}}</span>
+<div style="display: flex; align-items: center; gap: 10px"><span class="ar" style="font-size: 28px; line-height: 1.4">ح م د</span><span style="font-size: 14px; font-weight: 600"><sc-for list="{{rootPr}}" as="s"><span style="color: {{s.c}}">{{s.t}}</span></sc-for></span></div>
+<span style="font-size: 14px; color: #6E6E73">{{t.rootHooks}}</span>
+</a>
+<a href="App-Couple.dc.html" style="flex: 1 1 240px; min-width: 0; background: #FFFFFF; border-radius: 22px; box-shadow: 0 1px 2px rgba(0,0,0,.04), 0 8px 24px rgba(0,0,0,.06); padding: 20px; text-decoration: none; color: #1D1D1F; display: flex; flex-direction: column; gap: 6px">
+<span style="font-size: 14px; font-weight: 600; color: #6E6E73">{{t.us}}</span>
+<span style="font-size: 24px; font-weight: 700">{{t.usN}}</span>
+<span style="font-size: 14px; color: #6E6E73">{{t.usSub}}</span>
+</a>
+</div>
+
+<div style="background: #FFFFFF; border-radius: 22px; box-shadow: 0 1px 2px rgba(0,0,0,.04), 0 8px 24px rgba(0,0,0,.06); padding: 24px 28px; display: flex; flex-wrap: wrap; gap: 24px; align-items: center">
+<div style="flex: 1 1 260px; display: flex; flex-direction: column; gap: 6px">
+<span style="font-size: 14px; font-weight: 600; color: #6E6E73">{{t.madEye}}</span>
+<span style="font-size: 22px; font-weight: 700">{{t.madTitle}}</span>
+<span style="font-size: 14px; color: #6E6E73">{{t.madSub}}</span>
+</div>
+<div style="flex: 1 1 320px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px">
+<div style="background: #F5F5F7; border-radius: 14px; padding: 12px 14px; display: flex; flex-direction: column; align-items: flex-end; gap: 0"><span style="font-size: 12px; font-weight: 600; color: #6E6E73">{{t.fusha}}</span><span class="ar" style="font-size: 24px; line-height: 1.6">مَاذَا تُرِيدُ؟</span><span style="font-size: 13px; font-weight: 600"><sc-for list="{{fushaPr}}" as="s"><span style="color: {{s.c}}">{{s.t}}</span></sc-for></span></div>
+<div style="background: #E3F2EC; border-radius: 14px; padding: 12px 14px; display: flex; flex-direction: column; align-items: flex-end; gap: 0"><span style="font-size: 12px; font-weight: 600; color: #0B7A55">{{t.hijazi}}</span><span class="ar" style="font-size: 24px; line-height: 1.6">إيش تبغى؟</span><span style="font-size: 13px; font-weight: 600"><sc-for list="{{hijPr}}" as="s"><span style="color: {{s.c}}">{{s.t}}</span></sc-for></span></div>
+</div>
+</div>
+
+<span style="font-size: 13px; color: #A1A1A6; text-align: center">{{t.hint}}</span>
+</div>
+</main>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":1000}}'>
+class Component extends DCLogic {
+renderVals() {
+const lang = (this.state && this.state.lang) || 'bn';
+const bn = lang === 'bn';
+const SP = '#A3550A';
+const P = segs => segs.map(s => ({ t: s[0], c: s[1] ? SP : 'inherit' }));
+const T = {
+bn: { brand: 'সেতু', langLabel: 'অ্যাপের ভাষা', langNote: 'আপনার জন্য আলাদা। আরবি সবসময় একই থাকে।', greet: 'আসসালামু আলাইকুম', title: 'মিরাজ, আজ ১০ মিনিট', me: 'মি', her: 'স্ত্রী', streak: 'একসাথে ১৮ দিন', lessonEye: 'আজকের পাঠ · ২', lessonTitle: 'জ্ঞান, হুকুম আর কাজ', lessonMeta: '১২টি শব্দ · আলেম, হাকিম, আমল, তালিম', start: 'শুরু করুন', known: 'আপনি ইতিমধ্যে জানেন', count: '১২', unit: 'টি আরবি শব্দ', of: 'বাংলায় লুকিয়ে থাকা ১,০০০+ আরবি শব্দের মধ্যে। প্রতিটা পাঠ এই সংখ্যা বাড়ায়।', review: 'রিভিউ বাকি', reviewN: '১২টি কার্ড', next: 'পরেরটা:', root: 'আজকের শিকড়', rootHooks: 'হামদ, মুহাম্মদ, আহমদ', us: 'আমরা দুজন', usN: '১২ আর ৯ শব্দ', usSub: '[স্ত্রীর নাম] আপনাকে চ্যালেঞ্জ পাঠিয়েছে', madEye: 'মদিনা ট্র্যাক · পাঠ ১', madTitle: 'দোকানে কথা বলা, হিজাজি ভাষায়', madSub: 'ফুসহা আর কথ্য রূপ পাশাপাশি', fusha: 'ফুসহা', hijazi: 'মদিনায় বলে', hint: 'রঙিন অক্ষর মানে এই আওয়াজ বাংলায় নেই', nav: ['আজ', 'শিকড়', 'উচ্চারণ', 'নামাজ', 'আমরা', 'মদিনা ট্র্যাক'] },
+en: { brand: 'Setu', langLabel: 'App language', langNote: 'Set per person. Arabic always stays the same.', greet: 'Assalamu alaikum', title: 'Miraz, 10 minutes today', me: 'M', her: 'W', streak: '18 days together', lessonEye: 'Today’s lesson · 2', lessonTitle: 'Knowledge, rule and work', lessonMeta: '12 words · আলেম, হাকিম, আমল, তালিম', start: 'Start', known: 'You already know', count: '12', unit: 'Arabic words', of: 'of the 1,000+ Arabic words hiding in Bangla. Every lesson grows this number.', review: 'Reviews due', reviewN: '12 cards', next: 'Next:', root: 'Root of the day', rootHooks: 'হামদ, মুহাম্মদ, আহমদ · praise', us: 'The two of us', usN: '12 and 9 words', usSub: '[wife’s name] sent you a challenge', madEye: 'Madinah track · Lesson 1', madTitle: 'Talking in a shop, the Hijazi way', madSub: 'Fusha and the spoken form side by side', fusha: 'Fusha', hijazi: 'In Madinah', hint: 'Coloured letters are sounds English does not have', nav: ['Today', 'Roots', 'Sounds', 'Salah', 'Us', 'Madinah track'] }
+};
+const t = T[lang];
+const hrefs = ['Web-Home.dc.html', 'Web-Roots.dc.html', 'App-Sound.dc.html', 'App-Salah.dc.html', 'App-Couple.dc.html', 'Web-Home.dc.html'];
+const W = [
+{ ar: 'عَالِم', bn: [['‘আ', 1], ['-লিম', 0]], en: [['‘aa', 1], ['-lim', 0]] },
+{ ar: 'حَاكِم', bn: [['হা', 1], ['-কিম', 0]], en: [['ḥaa', 1], ['-kim', 0]] },
+{ ar: 'عَمَل', bn: [['‘আ', 1], ['-মাল', 0]], en: [['‘a', 1], ['-mal', 0]] },
+{ ar: 'تَعْلِيم', bn: [['তা', 0], ['‘', 1], ['-লিম', 0]], en: [['ta', 0], ['‘', 1], ['-leem', 0]] }
+];
+const on = { bg: '#FFFFFF', ink: '#1D1D1F', sh: '0 1px 3px rgba(0,0,0,.12)' };
+const off = { bg: 'transparent', ink: '#6E6E73', sh: 'none' };
+const a = bn ? on : off, b = bn ? off : on;
+return {
+t,
+brandPr: bn ? 'জিস-র' : 'jisr',
+nav: t.nav.map((label, i) => ({ label, href: hrefs[i], bg: i === 0 ? '#E3F2EC' : 'transparent', ink: i === 0 ? '#0B7A55' : '#1D1D1F', fw: i === 0 ? 600 : 400 })),
+lessonWords: W.map(w => ({ ar: w.ar, pr: P(bn ? w.bn : w.en) })),
+masjidPr: bn ? 'মাস-জিদ' : 'mas-jid',
+rootPr: P(bn ? [['হ', 1], [' · ম · দ', 0]] : [['ḥ', 1], [' · m · d', 0]]),
+fushaPr: P(bn ? [['মা-', 0], ['যা', 1], [' তু-রি-দু', 0]] : [['maa-dhaa tu-ree-du', 0]]),
+hijPr: P(bn ? [['ইশ তিব-', 0], ['গ়া', 1]] : [['eesh tib-', 0], ['gha', 1]]),
+isBn: bn, isEn: !bn,
+bnBg: a.bg, bnInk: a.ink, bnSh: a.sh, enBg: b.bg, enInk: b.ink, enSh: b.sh,
+setBn: () => this.setState({ lang: 'bn' }),
+setEn: () => this.setState({ lang: 'en' })
+};
+}
+}
+</script>
+</body>
+</html>
